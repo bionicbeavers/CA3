@@ -6,6 +6,10 @@ app = Flask(__name__)
 def welcome():
     return "Welcome to calculator App"
 
+@app.route('/sub/<int:x>/<int:y>')
+def sub(x, y):
+    return str(x - y)
+  
 @app.route('/calc/mul/<int:x>/<int:y>')
 def mul(x, y):
     return str(x * y)
