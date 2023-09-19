@@ -5,3 +5,7 @@ i190611 added tasks.txt and updated mutiply test cases
 i200447 created sub function in original forked repo
 i200447 created sub function test cases in original forked repo
 i200447 added a flask application around the sub function so that it may run when we go to its url
+
+i200780 created add function in original forked repo
+i200780 created add function test cases in original forked repo
+i200780 added a flask application around the add function so that it may run when we go to its url

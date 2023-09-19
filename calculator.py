@@ -14,5 +14,9 @@ def sub(x, y):
 def mul(x, y):
     return str(x * y)
 
+@app.route('/calc/add/<int:x>/<int:y>')
+def add(x, y):
+    return str(x + y)
+
 if __name__ == '__main__':
     app.run()
