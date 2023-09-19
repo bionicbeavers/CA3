@@ -9,6 +9,7 @@ def welcome():
 @app.route('/sub/<int:x>/<int:y>')
 def sub(x, y):
     return (x - y)
+
   
 @app.route('/calc/mul/<int:x>/<int:y>')
 def multiply(x, y):
