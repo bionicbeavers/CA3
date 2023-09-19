@@ -1,8 +1,14 @@
-def add(x, y):
-    return x + y
-def multiply(a,b): 
-    return a*b 
+from flask import Flask
 
-def sub(a,b):
-    return a-b
+app = Flask(__name__)
 
+@app.route('/')
+def welcome():
+    return "Welcome to calculator App"
+
+@app.route('/calc/mul/<int:x>/<int:y>')
+def mul(x, y):
+    return str(x * y)
+
+if __name__ == '__main__':
+    app.run()
