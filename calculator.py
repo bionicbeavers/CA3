@@ -11,7 +11,7 @@ def sub(x, y):
     return str(x - y)
   
 @app.route('/calc/mul/<int:x>/<int:y>')
-def mul(x, y):
+def multiply(x, y):
     return str(x * y)
 
 @app.route('/calc/add/<int:x>/<int:y>')
