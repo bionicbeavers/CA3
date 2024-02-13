@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def welcome():
-    return "Welcome to calculator App"
+    return "Welcome to calculator Apps"
 
 @app.route('/calc/sub/<int:x>/<int:y>')
 def sub(x, y):
